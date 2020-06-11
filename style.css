@@ -1,0 +1,25 @@
+section {
+    height: 400px;
+    position: relative;
+    border-bottom: 1px solid #eee;
+}
+
+section div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section.parallax:nth-child(2) {
+    background-image: url('img/1920x1080-Wallpaper-Femeni-ENG-4x.jpg');
+}
+section.parallax:nth-child(4) {
+    background-image: url('img/barcelona-overdrive.jpg');
+}
+
+section.parallax {
+    background-position: center;
+    //background-attachment: fixed;
+    background-size: cover;
+}
